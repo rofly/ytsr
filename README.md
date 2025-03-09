@@ -1,6 +1,6 @@
-# @distube/ytsr
+# @rofly/ytsr
 
-A light-weight ytsr for [DisTube](https://distube.js.org). Original [ytsr](https://www.npmjs.com/package/ytsr).
+A runtime agnostic fork of @distube/ytsr. Original [ytsr](https://www.npmjs.com/package/ytsr).
 
 # Feature
 
@@ -12,7 +12,7 @@ A light-weight ytsr for [DisTube](https://distube.js.org). Original [ytsr](https
 The response is modified from the original ytsr response. See [Example Response](#example-response) for more information.
 
 ```js
-const ytsr = require('@distube/ytsr');
+const ytsr = require('@rofly/ytsr');
 
 ytsr('DisTube', { safeSearch: true, limit: 1 }).then(result => {
   let song = result.items[0];

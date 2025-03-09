@@ -1,4 +1,4 @@
-declare module '@distube/ytsr' {
+declare module '@rofly/ytsr' {
   namespace ytsr {
     interface Options {
       safeSearch?: boolean;
